@@ -69,7 +69,7 @@ Each Jupyter notebook for this project aimed at investigating specific aspects o
 To find the most demanded skills for the top 3 most popular data roles. I filtered out those positions by which ones were the most popular, and got top 5 skills for these top 3 roles. This query highlights the most popular job titles and the their top skills, showing which skills i should pay attention to depending on the role i'm targeting. 
 
 View my notebook with detailed steps here:
-[Skill_Demand.ipynb](LB_Course\Final_project\Skill_Demand.ipynb)
+[Skill_Demand.ipynb](LB_Course/Final_project/Skill_Demand.ipynb)
 
 ## Visualize Data
 
@@ -106,8 +106,7 @@ plt.show()
 
 ### Results
 
-![Visulaization of Top Skills](LB_Course\Final_project\Images\Skill_Demand_all_data_roles.png)
-
+![Visulaization of Top Skills](LB_Course/Final_project/Images/Skill_Demand_all_data_roles.png)
 ## Insights
 
 - Python is a versatile skill, highly demanded across all three roles, but most prominently for Data Scientists (72%) and Data Engineers (65%).
@@ -123,7 +122,7 @@ plt.show()
 This analysis explores the trending top skills for data analysts in the US, focusing on SQL, Excel, Python, Tableau, and Power BI. By examining job postings over the year, we identify key trends and shifts in demand for these skills.
 
 View my notebook with detailed steps here:
-[Skill_Trend.ipynb](LB_Course\Final_project\Skills_Trend.ipynb)
+[Skill_Trend.ipynb](LB_Course/Final_project/Skills_Trend.ipynb)
 
 ```Python
 df_plot = df_DA_US_percent.iloc[:, :5]
@@ -148,8 +147,7 @@ for i in range(5):
 
 ### Results
 
-![Trending Top Skills for Data Analysts in the US](LB_Course\Final_project\Images\Trending_Top_Skills.png)
-
+![Trending Top Skills for Data Analysts in the US](LB_Course/Final_project/Images/Trending_Top_Skills.png)
 
 ### Insights:
 - SQL remains the most consistently demanded skill throughout the year, although it shows a gradual decrease in demand.
@@ -162,7 +160,7 @@ for i in range(5):
 This analysis examines the salary distributions of various data-related jobs in the US, including Data Analysts, Data Scientists, and Data Engineers. Also analysis most paid skills and the most in demand. 
 
 View my notebook with detailed steps here:
-[Salary_Analysis.ipynb](LB_Course\Final_project\Salary_Analysis.ipynb)
+[Salary_Analysis.ipynb](LB_Course/Final_project/Salary_Analysis.ipynb)
 
 
 ### Salary analysis
@@ -184,8 +182,7 @@ plt.show()
 ```
 
 #### Results
-![Salary Distribution of Data Jobs in the US](LB_Course\Final_project\Images\salary_distrubution_role.png)
-
+![Salary Distribution of Data Jobs in the US](LB_Course/Final_project/Images/salary_distrubution_role.png)
 
 #### Insights
 
@@ -233,7 +230,7 @@ plt.show()
 ```
 
 #### Results
-![The highest paid & Most in-Demand Skills for Data Analyst in the US](LB_Course\Final_project\Images\skill_demand_vs_skill_paid.png)
+![The highest paid & Most in-Demand Skills for Data Analyst in the US](LB_Course/Final_project/Images/skill_demand_vs_skill_paid.png)
 *Two seperate bar graph visualizing the highest paid skills and the most in-demand skills for data analysts in the US.*
 
 #### Insights
@@ -249,7 +246,7 @@ plt.show()
 This analysis explores the relationship between different technical skills and salary levels in the data analytics industry. By examining key skill categories—programming, analyst tools, and database skills—we can identify trends in salary distribution and job market demand. The findings highlight which skill sets offer the highest earning potential and their significance in various data roles.
 
 View my notebook with detailed steps here:
-[Optimal_Skills.ipynb](LB_Course\Final_project\Optimal_Skills.ipynb)
+[Optimal_Skills.ipynb](LB_Course/Final_project/Optimal_Skills.ipynb)
 
 #### Visualize Data
 
@@ -294,8 +291,8 @@ plt.show()
 ```
 
 #### Results
-![The highest paid & Most in-Demand Skills for Data Analyst in the US](LB_Course\Final_project\Images\Most_optimal_skills.png)
-*Two seperate bar graph visualizing the highest paid skills and the most in-demand skills for data analysts in the US.*
+![The highest paid & Most in-Demand Skills for Data Analyst in the US](LB_Course/Final_project/Images/Most_optimal_skills.png)
+
 
 #### Insights
 - Programming Skills (Colored Blue):
