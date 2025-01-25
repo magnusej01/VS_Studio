@@ -313,6 +313,9 @@ Throughout this project, I deepened my understanding of the data analyst job mar
 - **Advanced Python Usage**: Utilizing libraries such as Pandas for data manipulation, Seaborn and Matplotlib for data visualization, and other libraries helped me perform complex data analysis tasks more efficiently.
 - **Data Cleaning Importance**: I learned that thorough data cleaning and preparation are crucial before any analysis can be conducted, ensuring the accuracy of insights derived from the data.
 - **Strategic Skill Analysis**: The project emphasized the importance of aligning one's skills with market demand. Understanding the relationship between skill demand, salary, and job availability allows for more strategic career planning in the tech industry.
+-**Version Control with Git & GitHub**:
+Learned how to use Git for version control, enabling better project tracking and collaboration.
+Created and managed repositories on GitHub to showcase this and future projects.
 
 
 # Insights
